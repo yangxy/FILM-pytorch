@@ -10,15 +10,14 @@ git clone https://github.com/yangxy/FILM-pytorch.git
 cd FILM-pytorch
 ```
 
-- Download our [pre-trained model](https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/film.pth) and put them into ``ckpts/``.
+- Download our [pre-trained model](https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/film.pth) and put it into ``ckpts/``.
 
-- Test our models.
+- Test the model.
 ```bash
 python demo.py
 ```
 
 ## Citation
-If our work is useful for your research, please consider citing:
 
     @inproceedings{reda2022film,
 	 title = {FILM: Frame Interpolation for Large Motion},

@@ -33,7 +33,7 @@ def load_network(net, weight_path):
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', type=str, default='photos', help='Input image or folder')
-    parser.add_argument('--model_path', type=str, default='film.pth', help='Path to the pre-trained model')
+    parser.add_argument('--model_path', type=str, default='ckpts/film.pth', help='Path to the pre-trained model')
     parser.add_argument('--output', type=str, default='results', help='Output folder')
     parser.add_argument('--suffix', type=str, default='film', help='Suffix of the restored image')
     args = parser.parse_args()
